@@ -1,5 +1,6 @@
 # okagent
-Puppet module for okagent 
+Puppet module for okagent.
+Tested on RHEL6.
 
 ## Usage:
 
