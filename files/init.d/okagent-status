@@ -1,0 +1,7 @@
+#!/bin/sh
+# Source function library.
+if [ -f /etc/init.d/functions ]; then
+    . /etc/init.d/functions
+fi
+
+status -p /usr/local/okagent/okagent.pid supervisor
